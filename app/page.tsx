@@ -1,10 +1,10 @@
 export default function Home() {
   return (
-    <div className="bg-background h-[calc(100vh-64px)] w-screen justify-center flex flex-col items-center">
-      <p className="lg:text-[80px] text-[30px] uppercase font-bold">
+    <div className="flex flex-col justify-center items-center w-screen bg-background h-[calc(100vh-64px)]">
+      <p className="font-bold uppercase text-[30px] lg:text-[80px]">
         Welcome to the void.
       </p>
-      <p className="lg:text-[50px] text-[20px] uppercase font-semibold">
+      <p className="font-semibold uppercase text-[20px] lg:text-[50p]">
         i am abhiram.
       </p>
     </div>

@@ -56,15 +56,15 @@ const Projects: Project[] = [
     ],
     plannedFeatures: [
       {
-        name: "Password-protected pastes",
+        name: "Password-protected pastes (fixed as of 05 SEPT 2025)",
         description: "Add an option to secure pastes with a password.",
       },
       {
-        name: "Move to PostgreSQL",
+        name: "Move to PostgreSQL (fixed as of 07 SEPT 2025)",
         description: "Switch from SQLite to a PostgreSQL socket database.",
       },
       {
-        name: "Other features",
+        name: "Other features (WORKING ON THEM...)",
         description: "Additional useful features as development continues.",
       },
     ],
