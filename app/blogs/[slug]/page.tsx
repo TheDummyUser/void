@@ -3,6 +3,7 @@ import { notFound } from "next/navigation";
 import { getAllPosts, getPost } from "@/lib/blogs";
 import { remark } from "remark";
 import html from "remark-html";
+import remarkGfm from "remark-gfm";
 
 export default async function BlogPostPage({
   params,
@@ -14,7 +15,7 @@ export default async function BlogPostPage({
     notFound();
   }
 
-  const processed = await remark().use(html).process(post.content);
+  const processed = await remark().use(html).use(remarkGfm).process(post.content);
   const contentHtml = processed.toString();
 
   return (
